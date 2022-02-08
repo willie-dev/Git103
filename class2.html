@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Working with styles -->
+        <style>
+            .city{
+                background-color: tomato;
+                color: white;
+                border: 2px solid black;
+                margin: 20 px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <meta charset="UTF-8">
+    <body>
+        <div class="city">
+           <h2> London</h2>
+           <p>London is the capital city of England</p>
+        </div>
+        <div class="city">
+            <h2>Paris</h2>
+            <p>Paris is the capital city of France</p>
+         </div>
+         <div class="city">
+            <h2> Tokyo</h2>
+            <p>Tokyo is the capital city of Japan</p>
+         </div>
+         <h1>My First Emoji</h1>
+    <p>&#12B512;</p>
+    <!-- Introduction to forms -->
+         <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+           </form>
+           <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Wilson"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Wambua"><br><br>
+            <input type="submit" value="Submit"><br>
+           </form>
+           <label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+ <option value="volvo">Volvo</option>
+ <option value="saab">Saab</option>
+ <option value="fiat">Fiat</option>
+ <option value="audi">Audi</option>
+</select><br>
+<textarea name="message" rows="10" cols="30">
+    Write your text here..................
+    </textarea><br>
+ <!-- Example on datalist -->
+    <label for="Browses">Choose your default browser:</label>
+    <form action="/action_page.php">
+        <input list="browsers">
+        <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+        </datalist>
+       </form><br>
+       <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Wilson"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Wambua"><br><br>
+        <input type="submit" value="Submit">
+       </form><br>
+       <!-- working with checklist -->
+       <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+       </form><br>
+       <!-- Input colors  -->
+       <form>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+       </form>
+       
+       
+       <br><br>
+     </body>      
+    
+
+    
+</html>
